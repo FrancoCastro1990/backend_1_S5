@@ -9,7 +9,7 @@ import com.duoc.RopaStore.Model.Client;
 import com.duoc.RopaStore.Repository.ClientRepository;
 
 @Service
-public class ClientService {
+public class ClientService implements IClientService {
 
     @Autowired
     private ClientRepository clientRepository;
